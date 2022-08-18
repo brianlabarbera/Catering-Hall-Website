@@ -1,0 +1,94 @@
+.logo1 {
+  display:flex;
+  justify-content:center;
+  height:90px;
+}
+
+.nav-list{
+  display:flex;
+  justify-content:center;
+}
+
+.nav-item{
+  list-style:none;
+  margin-right:2rem;
+}
+
+.nav-item a {
+  text-decoration:none;
+  color:black;
+  font-family:sans-serif;
+  font-size:35px;
+}
+
+.nav-item a:hover{
+  color:white;
+  transition:300ms;
+}
+
+body{
+  background:#f2d596;
+}
+
+.ornament{
+  display:flex;
+  justify-content:center;
+  margin-bottom:1rem;
+}
+
+.logo2 {
+  display:flex;
+  justify-content:center;
+  height:60px;
+}
+
+p {
+  font-family:sans-serif;
+}
+
+
+footer{
+  display:flex;
+  justify-content:center;
+}
+
+.info{
+  position: relative;
+  left:30px;
+}
+
+.phone{
+  position:relative;
+  left:6px;
+}
+
+.zip{
+  position:relative;
+  right:6px;
+}
+
+.street{
+  position:relative;
+  right:10px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right:1rem;
+  margin-left:1rem;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #C13584;
+  color: white;
+}
