@@ -3,56 +3,44 @@
 <meta charset="UTF-8">
 <title>Serena's Catering Hall</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
 <link rel="stylesheet" href="menu.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="home.js"></script>
-<header>
-  <div class="logo1">
-  <img src="logo.png">
-  </div>
-  <nav>
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="home.html">HOME</a>
-      </li>
-      <li class="nav-item">
-        <a href="about.html">ABOUT</a>
-      </li>
-      <li class="nav-item">
-        <a href="menu.html">MENU</a>
-      </li>
-      <li class="nav-item">
-        <a href="photogallery.html">PHOTO GALLERY</a>
-      </li>
-      <li class="nav-item">
-        <a href="location.html">LOCATION</a>
-      </li>
-    </ul>
-  </nav>
-</header>
 <body>
   
-  <div class="ornament">
-    <img src="ornament.png">
+  <div class="nav-container">
+    <nav class="navbar">
+      <img src="logo.png">
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="home.html" class="nav-links">Home</a></li>
+        <li><a href="about.html" class="nav-links">About</a></li>
+        <li><a href="menu.html" class="nav-links">Menu</a></li>
+        <li><a href="photogallery.html" class="nav-links">Photo Gallery</a></li>
+        <li><a href="location.html" class="nav-links">Location</a></li>
+      </ul>
+    </nav>
   </div>
 
 <footer>
-  <container class="bottompage">
+    
     <div class="logo2">
     <img src="logo.png">
     </div>
  
-  <container class="info">
-    <p class="street">192 Ebbitts Street</p>
-    <p class="zip">Staten Island, NY</p>
-    <p class="phone">718.980.0001</p>
-  </container>
+    <div class="info">
+    <p><strong>192 Ebbitts Street <br> Staten Island, NY <br> <br> 718.980.0001</strong></p>
+    </div>
 
+  <container class="links">
   <a href="https://www.facebook.com/serenascateringhall/" class="fa fa-facebook"></a>
   <a href="https://www.instagram.com/serenascateringhall/" class="fa fa-instagram"></a>
   </container>
+
 </footer>
+<script src="menu.js"></script>
 </body>
 </html>
