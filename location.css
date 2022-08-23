@@ -128,6 +128,24 @@ p {
   font-family:sans-serif;
 }
 
+.ornament {
+  display:flex;
+  justify-content:center;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.map{
+  display:flex;
+  justify-content:center;
+}
+
+.googlemaps {
+  border:0;
+  width:100%;
+  height:480px;
+}
+
 .logo2 {
   display:flex;
   justify-content:center;
