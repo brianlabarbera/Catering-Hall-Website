@@ -1,0 +1,14 @@
+body{
+  background:#f2d596;
+}
+
+p {
+  font-family:sans-serif;
+}
+
+.ornament {
+  display:flex;
+  justify-content:center;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
