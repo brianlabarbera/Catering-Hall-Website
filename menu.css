@@ -1,0 +1,59 @@
+@font-face { font-family: Italianno; src: url('italianno.ttf'); } 
+@font-face { font-family: Italianno; font-weight: bold; src: url('italianno.ttf');}
+
+i{
+  font-size:14px;
+}
+
+h1{
+  font-family:Italianno;
+  font-size:50px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container2 {
+  display: flex;
+}
+
+.flex-container3 {
+  display: flex;
+}
+
+.flex-container4 {
+  display: flex;
+}
+
+.flex-container div {
+  background: peachpuff;
+  border:none;
+  height:100%;
+  flex: 1 1 auto;
+  text-align:center;
+}
+
+.flex-container2 div {
+  background: peachpuff;
+  border:none;
+  height: 850px;
+  flex: 1 1 auto;
+  text-align:center;
+}
+
+.flex-container3 div {
+  background: peachpuff;
+  border:none;
+  height: 100px;
+  flex: 1 1 auto;
+  text-align:center;
+}
+
+.flex-container4 div {
+  background: peachpuff;
+  border:none;
+  height: 400px;
+  flex: 1 1 auto;
+  text-align:center;
+}
