@@ -1,14 +1,10 @@
 body{
-background:black;
-}
-
-p {
-font-family:sans-serif;
+background: black;
 }
 
 .ornament {
-  display:flex;
-  justify-content:center;
-  margin-top:1rem;
-  margin-bottom:1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }

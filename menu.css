@@ -2,58 +2,69 @@
 @font-face { font-family: Italianno; font-weight: bold; src: url('italianno.ttf');}
 
 i{
-  font-size:14px;
+  font-size: 14px;
 }
 
 h1{
-  font-family:Italianno;
-  font-size:50px;
+  font-family: Italianno;
+  font-size: 50px;
 }
 
-.flex-container {
-  display: flex;
-}
-
-.flex-container2 {
-  display: flex;
-}
-
-.flex-container3 {
-  display: flex;
-}
-
-.flex-container4 {
-  display: flex;
-}
-
-.flex-container div {
+.grid-container{
   background: peachpuff;
-  border:none;
-  height:100%;
-  flex: 1 1 auto;
-  text-align:center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
-.flex-container2 div {
-  background: peachpuff;
-  border:none;
-  height: 850px;
-  flex: 1 1 auto;
-  text-align:center;
+.grid-item1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 1rem;
 }
 
-.flex-container3 div {
-  background: peachpuff;
-  border:none;
-  height: 100px;
-  flex: 1 1 auto;
-  text-align:center;
+.grid-item2{
+  grid-column-start: 1;
 }
 
-.flex-container4 div {
-  background: peachpuff;
-  border:none;
-  height: 400px;
-  flex: 1 1 auto;
-  text-align:center;
+.grid-item3{
+  grid-column-start: 2;
+}
+
+.grid-item4{
+  grid-column-start: 1;
+}
+
+.grid-item5{
+  grid-column-start: 2;
+}
+
+.grid-item6{
+  grid-column-start: 1;
+}
+
+.grid-item7{
+  grid-column-start: 2;
+}
+
+.grid-item8{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.grid-item9{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-top: 1rem;
+}
+
+.grid-item10{
+  grid-column-start: 1;
+  margin-bottom: 1rem;
+}
+
+.grid-item11{
+  grid-column-start: 2;
 }
