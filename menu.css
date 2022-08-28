@@ -1,16 +1,17 @@
-@font-face { font-family: Italianno; src: url('italianno.ttf'); } 
-@font-face { font-family: Italianno; font-weight: bold; src: url('italianno.ttf');}
+@font-face { font-family: Italianno; src: url('components/italianno.ttf'); } 
+@font-face { font-family: Italianno; font-weight: bold; src: url('components/italianno.ttf');}
 
-i{
+
+i {
   font-size: 14px;
 }
 
-h1{
+h1 {
   font-family: Italianno;
   font-size: 50px;
 }
 
-.grid-container{
+.grid-container {
   background: peachpuff;
   display: grid;
   grid-template-columns: auto;
@@ -19,52 +20,52 @@ h1{
   justify-content: center;
 }
 
-.grid-item1{
+.grid-item1 {
   grid-column-start: 1;
   grid-column-end: 3;
   margin-top: 1rem;
 }
 
-.grid-item2{
+.grid-item2 {
   grid-column-start: 1;
 }
 
-.grid-item3{
+.grid-item3 {
   grid-column-start: 2;
 }
 
-.grid-item4{
+.grid-item4 {
   grid-column-start: 1;
 }
 
-.grid-item5{
+.grid-item5 {
   grid-column-start: 2;
 }
 
-.grid-item6{
+.grid-item6 {
   grid-column-start: 1;
 }
 
-.grid-item7{
+.grid-item7 {
   grid-column-start: 2;
 }
 
-.grid-item8{
+.grid-item8 {
   grid-column-start: 1;
   grid-column-end: 3;
 }
 
-.grid-item9{
+.grid-item9 {
   grid-column-start: 1;
   grid-column-end: 3;
   margin-top: 1rem;
 }
 
-.grid-item10{
+.grid-item10 {
   grid-column-start: 1;
   margin-bottom: 1rem;
 }
 
-.grid-item11{
+.grid-item11 {
   grid-column-start: 2;
 }
