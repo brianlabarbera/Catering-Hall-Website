@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="navbar.css">
 <link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="home.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Serena's Catering Hall</title>
 <body>
@@ -21,7 +22,6 @@
       </div>
       <ul class="nav-menu">
         <li><a href="home.html" class="nav-links">Home</a></li>
-        <li><a href="about.html" class="nav-links">About</a></li>
         <li><a href="menu.html" class="nav-links">Menu</a></li>
         <li><a href="photogallery.html" class="nav-links">Photo Gallery</a></li>
         <li><a href="location.html" class="nav-links">Location</a></li>
@@ -29,11 +29,85 @@
     </nav>
   </div>
 
+<div class="background">
+
+  <div class="mainlogo">
+  <img src="components/logo.png">
+  </div>
+
+  <div class="slideshow-container">
+    <div class="mySlides1 fade">
+      <img src="components/front.jpeg" style="width:100%">
+      <div class="text">Serena's Catering Hall</div>
+    </div>
   
+    <div class="mySlides1 fade">
+      <img src="components/inside.jpg" style="width:100%">
+      <div class="text">Inside</div>
+    </div>
+  
+    <div class="mySlides1 fade">
+      <img src="components/bar.jpeg" style="width:100%">
+      <div class="text">Full-Service Bar</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+  
+ 
+
+  <div class="ornament">
+    <img src="components/ornament.png">
+  </div>
+
+  <div class="about">
+
+   <h2>Let us make a party to remember.</h2>
+
+   <p class="tab1"><strong>At Serena's Catering Hall,</strong></p> 
+   <p class="tab2"><strong>we strive to bring you an extraordinary experience.</strong> </p>
+   <p class="tab3"><strong>Accomodating up to 110 guests, full service bar,</strong> </p> 
+   <p class="tab4"><strong>and buffet-style service,</strong></p>
+   <p class="tab5"><strong>let us make a party to remember.</strong></p>
+
+  </div>
+
+  <div class="ornament">
+    <img src="components/ornament.png">
+  </div>
+ 
+  <div class="slideshow-container">
+    <div class="mySlides2 fade">
+      <img src="components/birthday.jpg" style="width:100%">
+      <div class="text">Birthday Parties</div>
+    </div>
+  
+    <div class="mySlides2 fade">
+      <img src="components/graduation.jpg" style="width:100%">
+      <div class="text">Graduations</div>
+    </div>
+  
+    <div class="mySlides2 fade">
+      <img src="components/bridal shower.jpg" style="width:100%">
+      <div class="text">Bridal Showers</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+  </div>
+  
+ 
+
+</div>
 
 </body>
 <footer>
     
+  <div class="ornament">
+    <img src="components/ornament.png">
+  </div>
+
   <div class="logo2">
     <img src="components/logo.png">
   </div>
@@ -49,4 +123,5 @@
   
 </footer>
 <script src="navbar.js"></script>
+<script src="home.js"></script>
 </html>
