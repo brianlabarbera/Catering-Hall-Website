@@ -6,15 +6,10 @@ i {
   font-size: 14px;
 }
 
-p {
-  color: whitesmoke;
-
-}
-
 h1 {
   font-family: Italianno;
   font-size: 50px;
-  color: whitesmoke;
+  color: black;
 }
 
 .grid-container {
@@ -23,6 +18,7 @@ h1 {
   grid-gap: 20px;
   text-align: center;
   justify-content: center;
+  background: peachpuff;
 }
 
 .grid-item1 {
