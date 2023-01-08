@@ -38,6 +38,16 @@
   font-size: 40px;
 }
 
+.home {
+  border-left-style: solid;
+  border-color: white;
+}
+
+li {
+  border-right-style: solid;
+  border-color: white;
+}
+
 .nav-links {
   color: white;
   text-decoration: none;
@@ -72,6 +82,14 @@
     left: -100%;
     opacity: 0;
     transition: all 0.5s ease;
+  }
+  
+  .home {
+    border-left-style: none;
+  }
+
+  li {
+    border-right-style: none;
   }
 
   .nav-menu.active {
