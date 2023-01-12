@@ -87,8 +87,13 @@ li {
   .home {
     border-left-style: none;
   }
+  
+  .location {
+    border-bottom-style: solid;
+  }
 
   li {
+    border-top-style: solid;
     border-right-style: none;
   }
 
